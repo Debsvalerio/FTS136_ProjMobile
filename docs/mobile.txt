@@ -12,3 +12,21 @@ Para trabalhar com testes Mobile:
 Software:
     - IDE: VS Code
     - Emulador
+    - Dispositivo Fisico - o primeiro a conectar é o emulator5552
+    - Remoto (Emulador / Dispositivos) --> device farm
+            - Saucelabs / Browserstack / Perfecto
+
+Exercicio de Refoço: Calculadora Google
+REQUISITOS:
+    1 - IDE: VSCode
+    2 - Gerenciador de pacotes: npm
+    3 - Ambiente de automação de testes Mobile    
+        a. local: emulador (imagem do Android desejado) ou celular via cabo, SDk para a versão Android,
+            instalar o Appium Desktop, e configurar as variaveis de ambiente
+        b. uma conta ativa no Saucelabs ou outro provedor de testes em nuvens
+    4 - Instalador do app que sera alvo dos testes(apk/ipa) -> fonte: www.apkpure.com
+    5 - no aparelho ou emulador, local ou nuvem, precisa instalar Apk info
+    6 - Usando o Apk Info, vamos descobrir o appPackage e o appActivity do nosso app alvo.
+    7 - Inspecionar os elementos do app usando o Appium Inspector
+    8 - setup inicial do WebDriverIO (npm init wdio)- questionario
+    9 - utilizar o mapeamento dos elementos para criar a automação de teste
